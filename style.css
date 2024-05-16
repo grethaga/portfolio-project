@@ -1,14 +1,50 @@
+:root {
+  --primary-color: rgb(52, 55, 60);
+  --secondary-color: #990000;
+  --heading-font-family: "Raleway", sans-serif;
+  --default-font-family: "Libre Baskerville", serif;
+}
+
+body {
+  margin: 0 20px;
+}
+.hero {
+  padding: 160px 0;
+}
 h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
   line-height: 40px;
-  color: rgb(52, 55, 60);
+  color: var(--primary-color);
 }
 
 p {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--default-font-family);
   font-weight: 400;
   font-style: italic;
+}
+
+.contact-btn {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 25px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+}
+
+.contact-btn:hover {
+  color: #800000;
+}
+
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--secondary-color);
+  font-size: 18px;
 }
