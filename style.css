@@ -6,10 +6,10 @@
 }
 
 body {
-  margin: 0 20px;
+  margin: 0 30px 40px;
 }
 .hero {
-  padding: 160px 0;
+  padding: 160px 0 40px 0;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -31,7 +31,7 @@ p {
   font-weight: 700;
   font-style: normal;
   line-height: 25px;
-  border: none;
+  border: 1.5px solid var(--secondary-color);
   display: flex;
   justify-content: center;
   color: var(--secondary-color);
@@ -47,4 +47,33 @@ h3 {
   font-style: normal;
   color: var(--secondary-color);
   font-size: 18px;
+  margin: 25px 0;
+}
+
+img {
+  border-radius: 6px;
+}
+
+.learn-btn {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
