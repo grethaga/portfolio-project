@@ -77,3 +77,16 @@ img {
     text-align: center;
   }
 }
+
+.about-hero {
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.about-text {
+  font-size: 14px;
+}
